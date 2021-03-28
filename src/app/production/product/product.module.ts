@@ -9,6 +9,7 @@ import { ProductDetailComponent } from './product-detail/product-detail.componen
   declarations: [ListProductComponent, ProductDetailComponent],
   imports: [
     CommonModule
-  ]
+  ],
+  exports: [ListProductComponent, ProductDetailComponent]
 })
 export class ProductModule { }
